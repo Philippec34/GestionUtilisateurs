@@ -30,6 +30,7 @@ namespace GestionUtilisateurs
             //ferme la connection même si la requête precedente echoue
             finally
             {
+
                 _dbConnection.Close();
             }
         }
